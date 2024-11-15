@@ -1,5 +1,5 @@
-﻿
-sol1();
+﻿sol1();
+
 int sol1()
 {
     int[] nums = { 1, 2, 3, 4, 5 };
@@ -16,16 +16,14 @@ public class Solution1
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        Dictionary<int, int> solutionDictionary = new Dictionary<int, int>();
+        var solutionDictionary = new Dictionary<int, int> { { nums[0], 0 } };
 
-        int sizeofnums = nums.Length;
-
-        for (int solution1 = 0; solution1 < sizeofnums; solution1++)
+        for (int solution1 = 1; solution1 < nums.Length; solution1++)
         {
             int solution2_key = target - nums[solution1];
             if (solutionDictionary.ContainsKey(solution2_key) && solutionDictionary[solution2_key] != solution1)
             {
-                return [solution1, solutionDictionary[solution2_key]];
+                return [solutionDictionary[solution2_key], solution1];
             }
             else
             {

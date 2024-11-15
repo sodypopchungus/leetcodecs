@@ -12,3 +12,4 @@ C:\stuff\code\leetcodecs\obj\Debug\net8.0\refint\leetcodecs.dll
 C:\stuff\code\leetcodecs\obj\Debug\net8.0\leetcodecs.pdb
 C:\stuff\code\leetcodecs\obj\Debug\net8.0\leetcodecs.genruntimeconfig.cache
 C:\stuff\code\leetcodecs\obj\Debug\net8.0\ref\leetcodecs.dll
+C:\stuff\code\leetcodecs\obj\Debug\net8.0\leetcodecs.sourcelink.json
