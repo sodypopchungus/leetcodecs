@@ -12,6 +12,7 @@ int sol1()
 
     return 0;
 }
+
 public class Solution1
 {
     public int[] TwoSum(int[] nums, int target)
