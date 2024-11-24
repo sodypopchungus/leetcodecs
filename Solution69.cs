@@ -1,11 +1,9 @@
 ﻿namespace leetcodecs
 {
-    public class Solution2
+    public class Solution69
     {
         public static int Solution()
         {
-            Console.WriteLine(1e9);
-
             return 0;
         }
     }

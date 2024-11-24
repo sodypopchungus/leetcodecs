@@ -4,8 +4,7 @@
     {
         private static void Main()
         {
-            //Solution1.Solution();
-            Solution2.Solution();
+            Solution1.Solution();
         }
     }
 }
